@@ -5,7 +5,7 @@ Version: 1.0
 Description: Learning how to make custom WP themes
 Tags: responsive, simple
 Author: Newton Armstrong
-Author URI: https://linkedin.com/in/narmstrongv/
+Author URI: https://github.com/Narmstrongv
 */
 /*   Comment   */
 :root {
@@ -740,4 +740,9 @@ div.comment:first-of-type {
 .comment-reply-title small a:focus,
 .comment-reply-title small a:hover {
 	text-decoration: underline;
+}
+
+/* Added Styles Post Example */
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  list-style: initial;
 }
