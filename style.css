@@ -42,7 +42,7 @@ Author URI: https://github.com/Narmstrongv
     --font-normal: 1em;
     --font-small: 0.8125rem;
     /* Sidebar */
-    --sidebar-width: 280px;
+    --sidebar-width: 235px;
     --content-max-width: 860px;
 }
 
@@ -171,7 +171,7 @@ h6 {
     color: rgba(0, 0, 0, 0.6)
 }
 .logo{
-    width:78px;
+    width: 200px;
 }
 .social-list a {
     width: 32px;
