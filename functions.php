@@ -80,4 +80,31 @@ function followandrew_widget_areas(){
 
 add_action( 'widgets_init', 'followandrew_widget_areas')
 
+/**
+
+ * Add class to body if device is mobile.
+ * Rickys Function
+
+ */
+
+// function valley_body_classes( $classes ) {
+
+//     if ( wp_is_mobile() ) :
+  
+//       $classes[] = 'valley-is-mobile';
+  
+//     endif;
+  
+//     if ( is_admin_bar_showing() ) :
+  
+//       $classes[] = 'admin-bar';
+  
+//     endif;
+  
+//     return $classes;
+  
+// }
+  
+// add_filter( 'body_class', 'valley_body_classes' );
+
 ?>

@@ -27,7 +27,7 @@
 			<?php echo get_bloginfo('name'); ?>
 		</a>
         
-	    <nav class="navbar navbar-expand-lg navbar-dark my-o py-0" >
+	    <nav class="navbar navbar-expand-lg navbar-dark sticky" >
            
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -68,6 +68,6 @@
     </header>
 
     <div class="main-wrapper">
-	    <header class="page-title theme-bg-light text-center gradient py-5">
-			<h1 class="heading"><?php the_title(); ?></h1>
+	    <header class="page-title theme-bg-light text-center gradient py-2">
+			<h1 class="heading text-white"><?php the_title(); ?></h1>
 		</header>
