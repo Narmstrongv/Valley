@@ -78,7 +78,7 @@ function followandrew_widget_areas(){
     );
 } 
 
-add_action( 'widgets_init', 'followandrew_widget_areas')
+add_action( 'widgets_init', 'followandrew_widget_areas');
 
 /**
 
@@ -87,24 +87,24 @@ add_action( 'widgets_init', 'followandrew_widget_areas')
 
  */
 
-// function valley_body_classes( $classes ) {
+function valley_body_classes( $classes ) {
 
-//     if ( wp_is_mobile() ) :
+    if ( wp_is_mobile() ) :
   
-//       $classes[] = 'valley-is-mobile';
+      $classes[] = 'valley-is-mobile';
   
-//     endif;
+    endif;
   
-//     if ( is_admin_bar_showing() ) :
+    if ( is_admin_bar_showing() ) :
   
-//       $classes[] = 'admin-bar';
+      $classes[] = 'admin-bar';
   
-//     endif;
+    endif;
   
-//     return $classes;
+    return $classes;
   
-// }
+}
   
-// add_filter( 'body_class', 'valley_body_classes' );
+add_filter( 'body_class', 'valley_body_classes' );
 
 ?>
